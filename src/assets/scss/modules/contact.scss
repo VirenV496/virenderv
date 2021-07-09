@@ -1,0 +1,26 @@
+.gif-contact{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.gif-contact > img{
+    width: 15%;
+}
+.social-icons{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+
+.icon{
+width: 40px;
+// height: 100px;
+}
+
+.bk-logos{
+    background: #fff;
+    border: #fff
+}
