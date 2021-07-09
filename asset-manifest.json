@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/virender.codes/static/css/main.f8462b23.chunk.css",
+    "main.js": "/virender.codes/static/js/main.bc0d6ef5.chunk.js",
+    "main.js.map": "/virender.codes/static/js/main.bc0d6ef5.chunk.js.map",
+    "runtime-main.js": "/virender.codes/static/js/runtime-main.64654de5.js",
+    "runtime-main.js.map": "/virender.codes/static/js/runtime-main.64654de5.js.map",
+    "static/js/2.274b237b.chunk.js": "/virender.codes/static/js/2.274b237b.chunk.js",
+    "static/js/2.274b237b.chunk.js.map": "/virender.codes/static/js/2.274b237b.chunk.js.map",
+    "index.html": "/virender.codes/index.html",
+    "static/css/main.f8462b23.chunk.css.map": "/virender.codes/static/css/main.f8462b23.chunk.css.map",
+    "static/js/2.274b237b.chunk.js.LICENSE.txt": "/virender.codes/static/js/2.274b237b.chunk.js.LICENSE.txt",
+    "static/media/gif_contact.4fda53c5.webp": "/virender.codes/static/media/gif_contact.4fda53c5.webp",
+    "static/media/ins.d0e6fe62.png": "/virender.codes/static/media/ins.d0e6fe62.png",
+    "static/media/linkedin.9a1a7f81.png": "/virender.codes/static/media/linkedin.9a1a7f81.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64654de5.js",
+    "static/js/2.274b237b.chunk.js",
+    "static/css/main.f8462b23.chunk.css",
+    "static/js/main.bc0d6ef5.chunk.js"
+  ]
+}
