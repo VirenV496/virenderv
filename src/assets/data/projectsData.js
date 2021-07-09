@@ -7,7 +7,14 @@ export const projectsData = [
 
 
     // },
-     
+    {
+        projectName: 'Porfolio!',
+        projectDescription:
+        'Java-Script | React-JS | Rest-api | Reausable components ',
+        imageUrl: '![Portfolio](https://user-images.githubusercontent.com/65226860/125074408-dec6e080-e0da-11eb-9590-0807b02c8951.png',
+        githubUrl: 'https://github.com/VirenV496/virender.codes',
+        SeeLive: 'https://virenv496.github.io/virender.codes/',
+    },
 
 
 
