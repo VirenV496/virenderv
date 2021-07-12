@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/virender.codes/static/css/main.f8462b23.chunk.css",
-    "main.js": "/virender.codes/static/js/main.0c11dc2d.chunk.js",
-    "main.js.map": "/virender.codes/static/js/main.0c11dc2d.chunk.js.map",
+    "main.js": "/virender.codes/static/js/main.88a00dfb.chunk.js",
+    "main.js.map": "/virender.codes/static/js/main.88a00dfb.chunk.js.map",
     "runtime-main.js": "/virender.codes/static/js/runtime-main.64654de5.js",
     "runtime-main.js.map": "/virender.codes/static/js/runtime-main.64654de5.js.map",
     "static/js/2.274b237b.chunk.js": "/virender.codes/static/js/2.274b237b.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.64654de5.js",
     "static/js/2.274b237b.chunk.js",
     "static/css/main.f8462b23.chunk.css",
-    "static/js/main.0c11dc2d.chunk.js"
+    "static/js/main.88a00dfb.chunk.js"
   ]
 }
