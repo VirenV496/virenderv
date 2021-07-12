@@ -109,8 +109,7 @@ const About = () => {
               University of pune
             </Link>{" "}
             in 2020 January - was one of the most driven students. I was a
-            self-taught front-end enthusiast, so I mentored my classmates and
-            other students at my college with our daily tasks and homework
+            self-taught front-end enthusiast, compeleting  daily tasks and homework
             during  classes in the front-end module. We also got familiar 
             with OOPs modern js fundamentals.  My{" "}
             <Link
