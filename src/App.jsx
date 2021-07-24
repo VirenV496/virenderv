@@ -8,20 +8,21 @@ import Contact from './pages/contact/Contact'
 import Home from './pages/Home/Home';
 import NavBar from './components/navbar/NavBar';
 import GoHome from './pages/gohome/GoHome';
-
+import Navbar2 from './components/navbar2/Navbar2';
 const App = ()  =>{
   return (
     <div className="App">
     
     <HashRouter>
      <div> 
-       <NavBar />
+       {/* <NavBar /> */}
+         <Navbar2 />
        <Route path = "/"  exact component = {Home} />
        <Route path = "/about"  component = {About} />
        <Route path = "/projects"  component = {Projects} />
-       <Route path = "/skills"  component = {Skills} />
+       <Route path = "/links"  component = {Skills} />
        <Route path = "/contact"  component = {Contact} />
-       {/* <GoHome /> */}
+
      </div>
      
      </HashRouter>

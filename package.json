@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://virenv496.github.io/virender.codes/",
+  "homepage": "http://localhost:3000/virender.codes#/links",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -24,7 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-   
   },
   "eslintConfig": {
     "extends": [
@@ -32,7 +31,7 @@
       "react-app/jest"
     ]
   },
-  "browserslist": { 
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
