@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/virender.codesstatic/css/main.c13344d5.chunk.css",
-    "main.js": "/virender.codesstatic/js/main.1766cbea.chunk.js",
-    "main.js.map": "/virender.codesstatic/js/main.1766cbea.chunk.js.map",
-    "runtime-main.js": "/virender.codesstatic/js/runtime-main.61c436fc.js",
-    "runtime-main.js.map": "/virender.codesstatic/js/runtime-main.61c436fc.js.map",
-    "static/js/2.1b95b044.chunk.js": "/virender.codesstatic/js/2.1b95b044.chunk.js",
-    "static/js/2.1b95b044.chunk.js.map": "/virender.codesstatic/js/2.1b95b044.chunk.js.map",
-    "index.html": "/virender.codesindex.html",
-    "static/css/main.c13344d5.chunk.css.map": "/virender.codesstatic/css/main.c13344d5.chunk.css.map",
-    "static/js/2.1b95b044.chunk.js.LICENSE.txt": "/virender.codesstatic/js/2.1b95b044.chunk.js.LICENSE.txt",
-    "static/media/gif_contact.4fda53c5.webp": "/virender.codesstatic/media/gif_contact.4fda53c5.webp",
-    "static/media/ins.d0e6fe62.png": "/virender.codesstatic/media/ins.d0e6fe62.png",
-    "static/media/linkedin.9a1a7f81.png": "/virender.codesstatic/media/linkedin.9a1a7f81.png"
+    "main.css": "/virender.codes/static/css/main.c13344d5.chunk.css",
+    "main.js": "/virender.codes/static/js/main.1766cbea.chunk.js",
+    "main.js.map": "/virender.codes/static/js/main.1766cbea.chunk.js.map",
+    "runtime-main.js": "/virender.codes/static/js/runtime-main.64654de5.js",
+    "runtime-main.js.map": "/virender.codes/static/js/runtime-main.64654de5.js.map",
+    "static/js/2.c75ed8a8.chunk.js": "/virender.codes/static/js/2.c75ed8a8.chunk.js",
+    "static/js/2.c75ed8a8.chunk.js.map": "/virender.codes/static/js/2.c75ed8a8.chunk.js.map",
+    "index.html": "/virender.codes/index.html",
+    "static/css/main.c13344d5.chunk.css.map": "/virender.codes/static/css/main.c13344d5.chunk.css.map",
+    "static/js/2.c75ed8a8.chunk.js.LICENSE.txt": "/virender.codes/static/js/2.c75ed8a8.chunk.js.LICENSE.txt",
+    "static/media/gif_contact.4fda53c5.webp": "/virender.codes/static/media/gif_contact.4fda53c5.webp",
+    "static/media/ins.d0e6fe62.png": "/virender.codes/static/media/ins.d0e6fe62.png",
+    "static/media/linkedin.9a1a7f81.png": "/virender.codes/static/media/linkedin.9a1a7f81.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.61c436fc.js",
-    "static/js/2.1b95b044.chunk.js",
+    "static/js/runtime-main.64654de5.js",
+    "static/js/2.c75ed8a8.chunk.js",
     "static/css/main.c13344d5.chunk.css",
     "static/js/main.1766cbea.chunk.js"
   ]
