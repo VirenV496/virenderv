@@ -6,6 +6,7 @@ import Projects from './pages/projects/Projects';
 import Skills from './pages/skills/Skills'
 import Contact from './pages/contact/Contact'
 import Home from './pages/Home/Home';
+import Home2 from './pages/Home/Home2';
 import NavBar from './components/navbar/NavBar';
 import GoHome from './pages/gohome/GoHome';
 import Navbar2 from './components/navbar2/Navbar2';
@@ -17,7 +18,7 @@ const App = ()  =>{
      <div> 
        {/* <NavBar /> */}
          <Navbar2 />
-       <Route path = "/"  exact component = {Home} />
+       <Route path = "/"  exact component = {Home2} />
        <Route path = "/about"  component = {About} />
        <Route path = "/projects"  component = {Projects} />
        <Route path = "/links"  component = {Skills} />

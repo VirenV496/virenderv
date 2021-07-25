@@ -15,7 +15,7 @@ const LogoDesign = styled(Link)`
   align-self: center;
   font-family: -apple-system, Ubuntu, Cantarell, "Open Sans", sans-serif;
   :hover {
-    color:#24a4d8;
+    color:red;
 
 
     transition-duration: 0.3s;
