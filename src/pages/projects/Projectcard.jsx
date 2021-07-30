@@ -32,8 +32,11 @@ const Projectcard = ({
           <h2 className="project-heading">{projectName}</h2>
           <p className="project-details">{projectDescription}</p>
           
-         <center> <a href={SeeLive} className="project-git-link">Live Preview</a> </center>
-         <center><a href={githubUrl} className="project-external-link">Github-Url</a></center> <br></br>
+          <div className = "links">
+          <a href={SeeLive} className="project-git-link">Live Preview</a> 
+          <a href={githubUrl} className="project-external-link">Github-Url</a>
+          </div>
+         
       </div>
     </div>
   );

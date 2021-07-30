@@ -10,6 +10,9 @@ import Home2 from './pages/Home/Home2';
 import NavBar from './components/navbar/NavBar';
 import GoHome from './pages/gohome/GoHome';
 import Navbar2 from './components/navbar2/Navbar2';
+import Blogs from './pages/blogs/Blogs';
+
+
 const App = ()  =>{
   return (
     <div className="App">
@@ -17,10 +20,11 @@ const App = ()  =>{
     <HashRouter>
      <div> 
        {/* <NavBar /> */}
-         <Navbar2 />
+        <Navbar2 />
        <Route path = "/"  exact component = {Home2} />
        <Route path = "/about"  component = {About} />
        <Route path = "/projects"  component = {Projects} />
+       <Route path = "/blogs"  component = {Blogs} />
        <Route path = "/links"  component = {Skills} />
        <Route path = "/contact"  component = {Contact} />
 

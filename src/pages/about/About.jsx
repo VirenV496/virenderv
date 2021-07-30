@@ -100,7 +100,7 @@ const About = () => {
             I finished Bachelors degree 2019 
             one of the biggest achievement Won hackathon National level kaveri hackathon in 2019 team of 5
             in bachelors degree i started with C language C++ data structures and java 
-            and i am a Final year masters student 2022{" "}
+            and i am a Final year masters student batch 2022{" "}
             <Link
               href=""
               target="_blank"
@@ -108,10 +108,10 @@ const About = () => {
             >
               University of pune
             </Link>{" "}
-            in 2020 January - was one of the most driven students. I was a
+            I was a
             self-taught front-end enthusiast, compeleting  daily tasks and homework
-            during  classes in the front-end module. We also got familiar 
-            with OOPs modern js fundamentals.  My{" "}
+            during  classes in the front-end module & the backend Node Rest Api. We also got familiar 
+            with OOPs modern js fundamentals.  My recent  {" "}
             <Link
               href="https://github.com/VirenV496/fullstack-crud"
               target="_blank"
@@ -119,7 +119,7 @@ const About = () => {
             >
                project 
             </Link>
-            was a web CRUD app,built  React with Node Express js  and Mongo-db. 
+            was a web CRUD app to understand the fundamental of rest api and how it is Integrated , built  React with Node Express js  and for database Mongo-db. 
        
           </p>
           <p>
