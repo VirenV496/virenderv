@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../../assets/scss/style.scss";
 import homeanime from "./../../assets/images/home_anime.gif";
+import ani from './../../assets/images/virender.codes.webp'
 
 import {
   FaHtml5,
@@ -24,7 +25,8 @@ class Home2 extends Component {
     return (
       <div className="home-container">
         <div className="header-text">
-          <h1>Hi There Welcome !</h1>
+          <h1>VIRENDER.CODES</h1>
+          
           <p className="header-text">
             {" "}
             A developer and a student{" "}
@@ -51,7 +53,11 @@ class Home2 extends Component {
          
         </div>
 
-        <div className="head-btns">
+        <div className="splash-image">
+          <img src={ani} alt="animation" className="home-anime"></img>
+        </div>
+
+        {/* <div className="head-btns">
           <Link to="/about" className="btn btn-white">
             <p className="btn-text"> know more about me </p>
           </Link>
@@ -67,11 +73,11 @@ class Home2 extends Component {
          <p  className="btn-text"> Connect with me </p> 
         </a>
 
-        </div>
-
+        </div> */}
+    {/* 
         <div className="splash-image">
           <img src={homeanime} alt="animation" className="home-anime"></img>
-        </div>
+        </div> */}
       </div>
     );
   }

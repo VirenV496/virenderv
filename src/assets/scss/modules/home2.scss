@@ -1,5 +1,5 @@
 .home-container{
-    background:$red;
+    background:white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
 } 
 
 .skills{
-    color: seashell;
+    color: rgb(7, 3, 0);
     font-size: 32px;
 }
 
@@ -26,11 +26,11 @@
     font-family: poppins;
     font-style: normal;
     font-weight: 900;
-    font-size: 3em;
-    line-height: 62px;
+    font-size: 4em;
+    line-height: 100px;
     text-align: center;
-    letter-spacing: 0.2px;
-    color: #fff;
+    letter-spacing: 5.2px;
+    color: rgb(5, 0, 0);
     margin: 10px;
 }
 .header-text > p {
@@ -39,7 +39,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    color: #fff;
+    color: rgb(7, 0, 0);
     margin: 10px;
 
 }
@@ -94,7 +94,7 @@
 @media only screen and (max-height:650px){
 
     .home-anime{
-        width: 80%;
+        width: 18%;
         align-self:center;
         margin-bottom: -20px;
     }
