@@ -25,7 +25,8 @@ class Home2 extends Component {
     return (
       <div className="home-container">
         <div className="header-text">
-          <h1>VIRENDER.CODES</h1>
+          
+          <h1>HI THERE</h1>
           
           <p className="header-text">
             {" "}

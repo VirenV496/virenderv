@@ -28,7 +28,7 @@ const Home = () => {
         <div class="HomePageLogo dnzAPl  Effect">virender</div>
       </div>
    
-      <p class="creative-developer">A Creative Developer</p>
+      <p class="creative-developer"> Creative Dev</p>
 
       <Icons>
         <FaHtml5 />

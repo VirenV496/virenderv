@@ -26,7 +26,8 @@
     font-family: poppins;
     font-style: normal;
     font-weight: 900;
-    font-size: 4em;
+    font-size: 8em;
+
     line-height: 100px;
     text-align: center;
     letter-spacing: 5.2px;
@@ -79,7 +80,10 @@
     box-shadow: 1px 10px 32px rgba(0, 0, 0, 0.45);
     transition: all 0,3s ease-in-out;
 }
-
+.home-anime{
+    width: 43%;
+    padding-left: 27%;
+}
 
 // for small height screen sizes
 
@@ -94,7 +98,8 @@
 @media only screen and (max-height:650px){
 
     .home-anime{
-        width: 18%;
+        width: 30%;
+
         align-self:center;
         margin-bottom: -20px;
     }
