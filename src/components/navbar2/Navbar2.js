@@ -2,12 +2,15 @@ import React, { useState } from "react"
 import NavbarLinks from "./NavbarLinks"
 import Logo from "./Logo"
 import styled from "styled-components"
-
+import Header from "../Header"
 const Navbar2 = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
-    <Navigation>
+    <div> 
+      <Header />
+    <div style = {{paddingTop: "10%"}}>
+    <Navigation  >
       <Logo />
       <Toggle
         navbarOpen={navbarOpen}
@@ -25,6 +28,8 @@ const Navbar2 = () => {
         </Navbox>
       )}
     </Navigation>
+    </div>
+    </div>
   )
 }
 

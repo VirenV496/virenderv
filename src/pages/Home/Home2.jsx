@@ -26,7 +26,7 @@ class Home2 extends Component {
       <div className="home-container">
         <div className="header-text">
           
-          <h1>HI THERE</h1>
+          <h1>HI THERE !</h1>
           
           <p className="header-text">
             {" "}
@@ -54,9 +54,9 @@ class Home2 extends Component {
          
         </div>
 
-        <div className="splash-image">
+        {/* <div className="splash-image">
           <img src={ani} alt="animation" className="home-anime"></img>
-        </div>
+        </div> */}
 
         {/* <div className="head-btns">
           <Link to="/about" className="btn btn-white">
@@ -75,10 +75,10 @@ class Home2 extends Component {
         </a>
 
         </div> */}
-    {/* 
+    
         <div className="splash-image">
           <img src={homeanime} alt="animation" className="home-anime"></img>
-        </div> */}
+        </div>
       </div>
     );
   }

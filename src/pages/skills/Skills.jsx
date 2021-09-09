@@ -153,8 +153,9 @@ const LinkButton = styled.a`
   padding: 10px;
   margin-bottom: 5px;
   transition: all 300ms ease-in-out;
+  // rgb(32 31 31 / 20%)
   &:hover {
-    background: rgb(32 31 31 / 20%);
+    background: #fc6c85;
     color: black;
   }
 `

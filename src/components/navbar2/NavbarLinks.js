@@ -5,17 +5,18 @@ import styled from "styled-components"
 
 const NavbarLinks = () => {
   return (
-    <>
+    <div>
       <NavItem to="/about">ABOUT</NavItem>
       <NavItem to="/projects">WORK</NavItem>
       <NavItem to="/blogs">BLOG</NavItem>
       <NavItem to="/links">LINKS</NavItem>
       <NavItem to="/contact">CONTACT</NavItem>
-    </>
+      </div>
   )
 }
 
 const NavItem = styled(Link)`
+
   text-decoration: none;
   color: white;
   display: inline-block;
