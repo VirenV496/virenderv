@@ -53,7 +53,7 @@ export default SocialIcons;
 
 const Icons = styled.a`
     text-decoration: none;
-    color: black;
+    color: #fff;
     font-size: 26px;
     padding-left: 6px;
     align-content: center;
