@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/virender.codes/static/css/main.c4a7a70b.chunk.css",
-    "main.js": "/virender.codes/static/js/main.5d58576b.chunk.js",
-    "main.js.map": "/virender.codes/static/js/main.5d58576b.chunk.js.map",
+    "main.css": "/virender.codes/static/css/main.fd3252d8.chunk.css",
+    "main.js": "/virender.codes/static/js/main.066b818b.chunk.js",
+    "main.js.map": "/virender.codes/static/js/main.066b818b.chunk.js.map",
     "runtime-main.js": "/virender.codes/static/js/runtime-main.64654de5.js",
     "runtime-main.js.map": "/virender.codes/static/js/runtime-main.64654de5.js.map",
     "static/js/2.cf233728.chunk.js": "/virender.codes/static/js/2.cf233728.chunk.js",
     "static/js/2.cf233728.chunk.js.map": "/virender.codes/static/js/2.cf233728.chunk.js.map",
     "index.html": "/virender.codes/index.html",
-    "static/css/main.c4a7a70b.chunk.css.map": "/virender.codes/static/css/main.c4a7a70b.chunk.css.map",
+    "static/css/main.fd3252d8.chunk.css.map": "/virender.codes/static/css/main.fd3252d8.chunk.css.map",
     "static/js/2.cf233728.chunk.js.LICENSE.txt": "/virender.codes/static/js/2.cf233728.chunk.js.LICENSE.txt",
     "static/media/gif_contact.4fda53c5.webp": "/virender.codes/static/media/gif_contact.4fda53c5.webp",
     "static/media/home_anime.f372ef86.gif": "/virender.codes/static/media/home_anime.f372ef86.gif",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.64654de5.js",
     "static/js/2.cf233728.chunk.js",
-    "static/css/main.c4a7a70b.chunk.css",
-    "static/js/main.5d58576b.chunk.js"
+    "static/css/main.fd3252d8.chunk.css",
+    "static/js/main.066b818b.chunk.js"
   ]
 }
