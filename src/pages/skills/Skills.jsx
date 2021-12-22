@@ -155,7 +155,7 @@ const LinkButton = styled.a`
   transition: all 300ms ease-in-out;
   // rgb(32 31 31 / 20%)
   &:hover {
-    background: #fc6c85;
+    background: grey;
     color: black;
   }
 `
