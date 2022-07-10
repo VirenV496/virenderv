@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import NavbarLinks from './NavbarLinks';
 import styled from 'styled-components';
@@ -30,7 +29,7 @@ const Navbar2 = () => {
 export default Navbar2;
 
 const Navigation = styled.nav`
-    height: 5vh;
+    height: 0vh;
     display: flex;
     position: relative;
     justify-content: center;
