@@ -6,13 +6,15 @@ import HomePageLogo from '../../components/common/HomepageLogo';
 import ConnectButton from '../../components/buttons/Connect';
 import SocialIcons from '../../components/buttons/SocialIcon';
 import TechIcons from '../../components/common/Techicons';
+// import  HomeImage from '../../assets/images/GtwT.gif';
+import  HomeImage2 from '../../assets/images/home_anime.gif'
 
 const Home2 = ({ data }) => (
     <HomePage>
-          <div style = {{}}>
-            <Image> 
+          <div style = {{marginRight:'330px'}}>
+            <Image>
                 <img
-                  src="https://media2.giphy.com/media/xT0GqmKmNzEJcyBjNu/200w.webp?cid=ecf05e47gdl75vib2q816srozuaf8nar7rs1b5w53eq5f3h9&rid=200w.webp&ct=g"
+                  src={HomeImage2}
                 />
             </Image>
             </div>
@@ -20,8 +22,7 @@ const Home2 = ({ data }) => (
            <TechIcons />
             <ConnectButton />
             <SocialIcons />
-  
-    </HomePage>     
+    </HomePage>
 );
 
 

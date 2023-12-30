@@ -5,6 +5,11 @@ import styled from 'styled-components';
 const Navbar2 = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
+    // Function to close the navbar
+    const closeNavbar = () => {
+        setNavbarOpen(false);
+    };
+
     return (
         <Navigation>
             <Toggle
@@ -13,15 +18,9 @@ const Navbar2 = () => {
             >
                 {navbarOpen ? <Hamburger open /> : <Hamburger />}
             </Toggle>
-            {navbarOpen ? (
-                <Navbox>
-                    <NavbarLinks />
-                </Navbox>
-            ) : (
-                <Navbox open>
-                    <NavbarLinks />
-                </Navbox>
-            )}
+            <Navbox open={navbarOpen} onClick={closeNavbar}>
+                <NavbarLinks />
+            </Navbox>
         </Navigation>
     );
 };
@@ -34,7 +33,7 @@ const Navigation = styled.nav`
     position: relative;
     justify-content: center;
     text-transform: uppercase;
-    padding: 5vh 3vw;
+    padding: 3vh 3vw;
     z-index: 2;
     background-color: black;
     @media (max-width: 768px) {
@@ -70,7 +69,7 @@ const Navbox = styled.div`
         background: #000;
         transition: all 0.3s ease-in;
         top: 0;
-        left: ${props => (props.open ? '-100%' : '0')};
+        left: ${props => (props.open ? '0' : '-100%')};
     }
 `;
 
@@ -100,7 +99,6 @@ const Hamburger = styled.div`
                 : 'rotate(0deg)'};
         top: -10px;
     }
-    
     ::after {
         opacity: ${props => (props.open ? '0' : '1')};
         transform: ${props => (props.open ? 'rotate(90deg) ' : 'rotate(0deg)')};

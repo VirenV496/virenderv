@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const HomePageLogo = () => {
     return (
         <HomeLogo>
-            <LogoText>virender</LogoText>
+             <Description>Hi There</Description>
             <Description>Software Engineer</Description>
         </HomeLogo>
     );

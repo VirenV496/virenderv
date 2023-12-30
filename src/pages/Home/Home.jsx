@@ -27,7 +27,6 @@ const Home = () => {
       <div class="HomePageLogo hXikou">
         <div class="HomePageLogo dnzAPl  Effect">virender</div>
       </div>
-   
       <p class="creative-developer"> Creative Dev</p>
 
       <Icons>
@@ -49,7 +48,7 @@ const Home = () => {
         </Icons>
 
 
-{/*          
+       {/*
          <div className="skillcontainer">
 
            {
@@ -58,7 +57,6 @@ const Home = () => {
              })
            }
          </div> */}
-    
       <div class="home-page-btn">
         <Link to="/projects">
           <p className=" home-page-btn-clr">see my projects</p>
