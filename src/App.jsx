@@ -16,9 +16,8 @@ import Blogs from './pages/blogs/Blogs';
 const App = ()  =>{
   return (
     <div className="App">
-    
     <HashRouter>
-     <div> 
+     <div>
        {/* <NavBar /> */}
         <Navbar2 />
        <Route path = "/"  exact component = {Home2} />
@@ -27,9 +26,7 @@ const App = ()  =>{
        <Route path = "/blogs"  component = {Blogs} />
        <Route path = "/links"  component = {Skills} />
        <Route path = "/contact"  component = {Contact} />
-
      </div>
-     
      </HashRouter>
 
     </div>
