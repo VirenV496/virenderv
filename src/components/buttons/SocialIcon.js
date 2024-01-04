@@ -11,7 +11,7 @@ import { IoIosMail } from 'react-icons/io';
 
 const SocialIcons = () => {
     return (
-        <section
+        <Container
             style={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -19,9 +19,10 @@ const SocialIcons = () => {
             }}
         >
             <Icons
-                href=""
+                href="https://www.instagram.com/_sublimed__/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Berta.codes on Instagram"
             >
                 <FaInstagramSquare />
             </Icons>
@@ -29,6 +30,7 @@ const SocialIcons = () => {
                 href="https://www.linkedin.com/in/virender-vishwakarma-952381176/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Berta.codes on Linkedin"
             >
                 <FaLinkedin />
             </Icons>
@@ -36,42 +38,51 @@ const SocialIcons = () => {
                 href="https://github.com/VirenV496"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Berta.codes on Github"
             >
                 <FaGithubSquare />
             </Icons>
-
             <Icons
-                href=""
+                href="https://github.com/VirenV496"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Berta.codes on Youtube"
+
             >
                 <FaYoutubeSquare />
             </Icons>
             <Icons
-                href=""
+                href="https://github.com/VirenV496"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Visit Berta.codes on Twitter"
             >
                 <FaTwitterSquare />
             </Icons>
             <Icons
-                href="virenderv329@gmail.com"
+                href="mailto:virenderv329@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: '55px' }}
+                aria-label="Contact Berta.codes via e-mail"
             >
                 <IoIosMail />
             </Icons>
-        </section>
+        </Container>
     );
 };
 
 export default SocialIcons;
 
+const Container = styled.section`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
 const Icons = styled.a`
     text-decoration: none;
-    // color: #000;
-    color: #acacac;
+    color: #000;
     font-size: 38px;
     padding: 0 6px;
     align-content: center;

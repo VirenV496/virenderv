@@ -1,11 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-
-
 import HomePageLogo from '../../components/common/HomepageLogo';
 import ConnectButton from '../../components/buttons/Connect';
 import SocialIcons from '../../components/buttons/SocialIcon';
-import TechIcons from '../../components/common/Techicons';
+// import TechIcons from '../../components/common/Techicons';
 // import  HomeImage from '../../assets/images/GtwT.gif';
 import  HomeImage2 from '../../assets/images/home_anime.gif'
 
@@ -19,7 +17,7 @@ const Home2 = ({ data }) => (
             </Image>
             </div>
            <HomePageLogo />
-           <TechIcons />
+           {/* <TechIcons /> */}
             <ConnectButton />
             <SocialIcons />
     </HomePage>

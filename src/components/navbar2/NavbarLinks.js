@@ -23,12 +23,12 @@ const NavItem = styled(Link)`
     text-decoration: none;
     display: inline-block;
     white-space: nowrap;
-    margin: 1vw 1vw;
-    transition: all 200ms ease-in;
+    margin: 10px 10px;
+    // transition: all 200ms ease-in;
     position: relative;
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
     font-family: Ubuntu;
     :after {
         position: absolute;
@@ -57,7 +57,7 @@ const NavItem = styled(Link)`
         font-weight: 400;
         font-family: -apple-system, Roboto, Ubuntu, Cantarell, 'Open Sans', sans-serif;
         :hover {
-        font-weight: 900;
+        font-weight: 100;;
         transition: all 0.3s ease-in-out;
         }
     }

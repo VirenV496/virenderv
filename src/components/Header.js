@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 // import Navbar2 from './navbar2/Navbar2';
 import ConnectButton from './buttons/Connect';
-import SocialIcons from './buttons/Socialicon';
+import SocialIcons from './buttons/SocialIcon';
 import Logo from './common/Logo';
 
 const HeaderStyle = styled.header`
