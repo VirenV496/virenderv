@@ -1,9 +1,8 @@
 import React from "react"
-// import Layout from "../components/layout"
 import styled from "styled-components"
 import data from "../../assets/data/data.json"
 import { FaInstagramSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa"
-
+import Fade from 'react-reveal/Fade';
 const links = data.links
 
 const javascriptLinks = links
@@ -31,7 +30,6 @@ const mustReadLinks = links
   .filter(link => link.type.includes("mustread"))
 
 const Links = data => (
-//   <Layout>
     <LinksContainer>
       <Picture
         src="https://avatars.githubusercontent.com/u/65226860?s=400&u=a3e6764717e9abc78e1023e33805a9e0e2f7c7f4&v=4"
@@ -101,7 +99,6 @@ const Links = data => (
         )
       })}
     </LinksContainer>
-//   </Layout>
 )
 
 export default Links

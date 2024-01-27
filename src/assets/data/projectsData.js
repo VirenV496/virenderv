@@ -1,19 +1,12 @@
 export const projectsData = [
 
-    // { 
-    //     // projectName: 'Git-hub',
-    //     imageUrl:' https://user-images.githubusercontent.com/65226860/123748521-f4195f00-d8d1-11eb-95e9-98a9f874f0d2.gif',
-    //     // SeeLive: 'https://virenv496.github.io/typescript/',
-
-
-    // },
     {
         projectName: 'Porfolio!',
         projectDescription:
         'Java-Script |React-JS| Organizrd css Saas | React router dom | hash router | Styled Components  functional & the class based components   Reausable components |Json Data to show over the web page ',
-        imageUrl: 'https://media.giphy.com/media/YuEhllLzlespOUqZF6/giphy.gif',
-        githubUrl: 'https://github.com/VirenV496/virender.codes',
-        SeeLive: 'https://virenv496.github.io/virender.codes/',
+        imageUrl: 'https://github.com/VirenV496/my-portfolio-images/assets/65226860/f42c8b58-6c80-403b-9716-b1f55a7f38e1',
+        githubUrl: 'https://github.com/VirenV496/virender.tech',
+        SeeLive: 'https://virenv496.github.io/virender.tech/#/links',
     },
 
     {

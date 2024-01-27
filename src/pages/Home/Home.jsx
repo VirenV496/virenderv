@@ -1,82 +1,35 @@
 import React from "react";
 import "../../assets/scss/style.scss";
-import { Link } from "react-router-dom";
-import {skillList} from "../../assets/data/skillsData"
-import Skillcard from "../skills/Skillcard";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaBootstrap,
-  FaSass,
-  FaReact,
-
-  FaVuejs,
-  FaDocker,
-
-  FaNode,
-} from "react-icons/fa"
-import styled from "styled-components"
-import {   DiJava } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io"
-import { GrGatsbyjs, GrMysql } from "react-icons/gr"
-import { SiTypescript, SiJest, SiPostman } from "react-icons/si"
+import { WelcomeSvg } from "../../assets/Svgs/SVGS";
+import styled from "styled-components";
+import Zoom from 'react-reveal/Zoom';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
-    <main className="home-container">
-      <div class="HomePageLogo hXikou">
-        <div class="HomePageLogo dnzAPl  Effect">virender</div>
+    <HomePage>
+    <Zoom>
+    <WelcomeSvg/>
+    </Zoom>
+      <div>
       </div>
-      <p class="creative-developer"> Creative Dev</p>
+      <div  className="welcome" >
+        <span></span>
+      <p>
+        My name is virender vishwakarma, I'm a front-end developer based in India,
+        pune maharashtra,I have developed many types of front-ends from well know
+        applications to Ecommerce booking platforms.
+      </p>
 
-      <Icons>
-        <FaHtml5 />
-        <FaCss3Alt />
-        <FaSass />
-        <FaBootstrap />
-        <IoLogoJavascript />
-        <FaReact />
-        <FaNode/>
-        <GrGatsbyjs />
-        {/* <FaVuejs /> */}
-        <SiTypescript />
-        {/* <SiJest /> */}
-        {/* <FaDocker /> */}
-        <DiJava />
-        <GrMysql />
-        <SiPostman />
-        </Icons>
-
-
-       {/*
-         <div className="skillcontainer">
-
-           {
-             skillList.map(({skillName, skillUrl})=> {
-               return <Skillcard skillName = {skillName} skillUrl = { skillUrl}/>
-             })
-           }
-         </div> */}
-      <div class="home-page-btn">
-        <Link to="/projects">
-          <p className=" home-page-btn-clr">see my projects</p>
-        </Link>
-
-        <a
-          href="https://www.linkedin.com/in/virender-vishwakarma-952381176"
-          target="_blank"
-          rel="noopener noreferrer"
-          class=" home-page-btn-clr"
-        >
-          let's connect
-        </a>
+      <p>
+        I'm passionate about cutting-edge tech, pixel-perfect, beautiful interfaces
+        and intuitively implemented UX.{" "}
+      </p>
       </div>
-    </main>
-
-
+      <Footer />
+      </HomePage>
   );
 };
-
 
 const Icons = styled.p`
   font-size: 24px;
@@ -87,5 +40,19 @@ const Icons = styled.p`
     font-size: 22px;
     margin-top: -16px;
   }
-`
+`;
+
+const HomePage = styled.section`
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center horizontally */
+    margin-top: 5vh;
+`;
+
+
 export default Home;

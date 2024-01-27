@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { HiMenu } from 'react-icons/hi';
 import { CgClose } from 'react-icons/cg';
 import SocialIcons from '../buttons/SocialIcon';
-
 const isBrowser = typeof window !== "undefined";
 
 const Navbar = () => {
@@ -45,7 +44,7 @@ const Navbar = () => {
           )}
           <NavbarLinks />
           {isMobile && (
-            <Footer>
+             <Footer>
               <SocialIcons />
             </Footer>
           )}

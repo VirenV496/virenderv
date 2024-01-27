@@ -20,7 +20,7 @@ const App = ()  =>{
     <HashRouter>
      <div>
        <Navbar2 />
-       <Route path = "/"  exact component = {Home2} />
+       <Route path = "/"  exact component = {Home} />
        <Route path = "/about"  component = {About} />
        <Route path = "/projects"  component = {Projects} />
        <Route path = "/blogs"  component = {Blogs} />

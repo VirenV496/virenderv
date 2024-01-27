@@ -3,13 +3,11 @@ import styled from 'styled-components';
 import HomePageLogo from '../../components/common/HomepageLogo';
 import ConnectButton from '../../components/buttons/Connect';
 import SocialIcons from '../../components/buttons/SocialIcon';
-// import TechIcons from '../../components/common/Techicons';
-// import  HomeImage from '../../assets/images/GtwT.gif';
 import  HomeImage2 from '../../assets/images/home_anime.gif'
 
 const Home2 = ({ data }) => (
     <HomePage>
-          <div style = {{marginRight:'330px'}}>
+          <div>
             <Image>
                 <img
                   src={HomeImage2}
@@ -17,7 +15,6 @@ const Home2 = ({ data }) => (
             </Image>
             </div>
            <HomePageLogo />
-           {/* <TechIcons /> */}
             <ConnectButton />
             <SocialIcons />
     </HomePage>
@@ -33,6 +30,7 @@ const HomePage = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Center horizontally */
     margin-top: 5vh;
 `;
 

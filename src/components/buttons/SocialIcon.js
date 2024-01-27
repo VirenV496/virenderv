@@ -3,9 +3,6 @@ import styled from 'styled-components';
 import {
     FaGithubSquare,
     FaLinkedin,
-    FaInstagramSquare,
-    FaTwitterSquare,
-    FaYoutubeSquare,
 } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
 
@@ -19,18 +16,10 @@ const SocialIcons = () => {
             }}
         >
             <Icons
-                href="https://www.instagram.com/_sublimed__/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Berta.codes on Instagram"
-            >
-                <FaInstagramSquare />
-            </Icons>
-            <Icons
                 href="https://www.linkedin.com/in/virender-vishwakarma-952381176/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit Berta.codes on Linkedin"
+                aria-label="Visit virender.tech on Linkedin"
             >
                 <FaLinkedin />
             </Icons>
@@ -38,33 +27,17 @@ const SocialIcons = () => {
                 href="https://github.com/VirenV496"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit Berta.codes on Github"
+                aria-label="Visit virender.tech on Github"
             >
                 <FaGithubSquare />
             </Icons>
-            <Icons
-                href="https://github.com/VirenV496"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Berta.codes on Youtube"
 
-            >
-                <FaYoutubeSquare />
-            </Icons>
-            <Icons
-                href="https://github.com/VirenV496"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Berta.codes on Twitter"
-            >
-                <FaTwitterSquare />
-            </Icons>
             <Icons
                 href="mailto:virenderv329@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontSize: '55px' }}
-                aria-label="Contact Berta.codes via e-mail"
+                aria-label="Contact virender.tech via e-mail"
             >
                 <IoIosMail />
             </Icons>
