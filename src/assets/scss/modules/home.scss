@@ -1,5 +1,16 @@
-.welcome{
-    width: 400px;
+.welcome {
+    max-width: 500px; /* Limit width to 400px */
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    .welcome {
+        max-width: 380px; /* Adjust width for smaller screens */
+    }
 }
 
 .home-container span:before {

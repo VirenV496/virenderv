@@ -3,48 +3,32 @@ import styled from "styled-components";
 import { FaLinkedin } from "react-icons/fa";
 
 const AboutPage = styled.main`
-overflow-y: hidden;
-overflow-x: hidden;
-height: 90vh;
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; /* Center horizontally */
-margin-top: 5vh;
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 5vh;
 `;
 const AboutText = styled.article`
-  margin: 0 auto;
-  font-size: 0.89rem;
-  padding: 4rem 2rem 3rem 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: black;
-  text-align: justify;
-  @media (min-width: 768px) {
-    width: 55vw;
-  }
-`;
-const Icons = styled.p`
-  color: black;
-  color: rgba(0, 0, 0, 0.02);
-  @media (max-width: 768px) {
-    margin-top: -30rem;
-    margin-right: -10rem;
-    font-size: 30rem;
-    text-align: right;
-  }
+    margin: 80px auto;
+    font-size: 13px;
+    color: black;
+    text-align: justify;
+    width: 90%;
+    @media (min-width: 768px) {
+        width: 55vw;
+        font-size: 14px;
+    }
 `;
 const Link = styled.a`
-  text-decoration: none;
-  color: red;
+    text-decoration: none;
+    color: #000;
 `;
 const LinkedIn = styled(FaLinkedin)`
-  font-size: 3rem;
-  margin-bottom: -0.2rem;
-  margin-right: 1rem;
-  color: #0e76a8;
+    font-size: 50px;
+    margin-right: 0.5rem;
+    color: #0e76a8;
 `;
+
+
 const About = () => {
   return (
     <AboutPage>

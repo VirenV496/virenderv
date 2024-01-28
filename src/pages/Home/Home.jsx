@@ -4,13 +4,13 @@ import styled from "styled-components";
 const Home = () => {
   return (
     <HomePage>
-      <LogoText>Welcome</LogoText>
-      <Description> Software Engineer</Description>
-      <div></div>
+        <HomeLogo>
+       <LogoText>Welcome</LogoText>
+       <Description> Software Engineer</Description>
+      </HomeLogo>
       <div className="welcome">
-        <span></span>
         <p>
-          My name is virender vishwakarma, I'm a front-end developer based in
+         My name is virender vishwakarma, I'm a front-end developer based in
           India, pune maharashtra,I have developed many types of front-ends Shipping, manufacturing, from
           well know applications to Ecommerce booking platforms.
         </p>
@@ -25,15 +25,34 @@ const Home = () => {
 };
 
 const HomePage = styled.section`
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: 90vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; /* Center horizontally */
-  margin-top: 5vh;
+overflow-y: hidden;
+overflow-x: hidden;
+height: 90vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; /* Center horizontally */
+margin-top: 5vh;
+`;
+
+const HomeLogo = styled.div`
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
+`;
+
+const HomeText = styled.article`
+    font-size: 13px;
+    color: black;
+    text-align: justify;
+    width: 90%; /* Adjusted width for mobile devices */
+    @media (min-width: 768px) {
+        width: 55vw;
+        font-size: 14px;
+    }
 `;
 
 const Description = styled.div`
@@ -60,7 +79,7 @@ const LogoText = styled.div`
   -moz-background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
-  font-size: 94px;
+  font-size: 80px;
   line-height: 1;
   text-align: center;
   color: black;
