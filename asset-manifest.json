@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/virender.tech/static/css/main.7f05ccf5.css",
-    "main.js": "/virender.tech/static/js/main.701fcb85.js",
+    "main.css": "/virender.tech/static/css/main.7dfecd5f.css",
+    "main.js": "/virender.tech/static/js/main.6b02dc16.js",
     "static/media/home_anime.gif": "/virender.tech/static/media/home_anime.f372ef867ab6dc71a52b.gif",
     "static/media/gif_contact.webp": "/virender.tech/static/media/gif_contact.4fda53c521214b4b3d37.webp",
     "index.html": "/virender.tech/index.html",
-    "main.7f05ccf5.css.map": "/virender.tech/static/css/main.7f05ccf5.css.map",
-    "main.701fcb85.js.map": "/virender.tech/static/js/main.701fcb85.js.map"
+    "main.7dfecd5f.css.map": "/virender.tech/static/css/main.7dfecd5f.css.map",
+    "main.6b02dc16.js.map": "/virender.tech/static/js/main.6b02dc16.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f05ccf5.css",
-    "static/js/main.701fcb85.js"
+    "static/css/main.7dfecd5f.css",
+    "static/js/main.6b02dc16.js"
   ]
 }
