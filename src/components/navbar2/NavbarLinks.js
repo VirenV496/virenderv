@@ -7,11 +7,11 @@ const NavbarLinks = () => {
         <>
             <NavItem to="/">HOME</NavItem>
             <NavItem to="/About">ABOUT</NavItem>
-            <NavItem to="/Projects">PROJECTS</NavItem>
+            {/* <NavItem to="/Projects">PROJECTS</NavItem> */}
             {/* <NavItem to="/Gallery">GALLERY</NavItem> */}
             {/* <NavItem to="/Blog">BLOG</NavItem> */}
             <NavItem to="/Links">LINKS</NavItem>
-            {/* <NavItem to="/Setup">SETUP</NavItem> */}
+            <NavItem to="/Setup">SETUP</NavItem>
             {/* <NavItem to="/Contact">CONTACT</NavItem> */}
         </>
     );
@@ -39,7 +39,7 @@ const NavItem = styled(Link)`
         content: '';
         color: transparent;
         background: #FA1E3F;
-        height: 1px;
+        height: 2px;
         transition: all 0.4s ease-in;
     }
     :hover {
@@ -47,6 +47,9 @@ const NavItem = styled(Link)`
         ::after {
             width: 100%;
         }
+    }
+    &.active {
+        color: red; // Change the color to whatever you want for the active link
     }
     @media (max-width: 768px) {
         padding: 8px 40px;

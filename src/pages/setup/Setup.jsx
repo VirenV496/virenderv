@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Blogs = () => {
+const Setup = () => {
     return (
         <div >
              <div style = {{marginTop: '20%'}}>
-             <center> OOP'S No Blogs yet! </center>
+             <center>No setup data at </center>
              </div>
         </div>
     )
 }
 
-export default Blogs
+export default Setup

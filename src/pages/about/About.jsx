@@ -3,12 +3,15 @@ import styled from "styled-components";
 import { FaLinkedin } from "react-icons/fa";
 
 const AboutPage = styled.main`
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
-  &:last-child {
-    margin-bottom: 10px;
-  }
+overflow-y: hidden;
+overflow-x: hidden;
+height: 90vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; /* Center horizontally */
+margin-top: 5vh;
 `;
 const AboutText = styled.article`
   margin: 0 auto;
@@ -93,7 +96,7 @@ const About = () => {
           hackathon National level kaveri hackathon in 2019 team of 5 in
           bachelors degree i started with C language C++ data structures and
           java and i am a Final year masters student batch 2022{" "}
-          <Link href="" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.pibmpune.org.in/" target="_blank" rel="noopener noreferrer">
             University of pune
           </Link>{" "}
           I was a self-taught front-end enthusiast, compeleting daily tasks and
@@ -132,21 +135,7 @@ const About = () => {
             More...
           </a>
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", marginTop: "10px" }}>
-          <img
-            src="https://github-readme-stats.vercel.app/api?username=VirenV496&theme=radical"
-            width="500"
-            height="auto"
-            alt="berta matuliauskiene github"
-            style={{ marginRight: "2px" }}
-          />
-          <img
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=VirenV496&&theme=monokai&&layout=compact&&show_icons=true&&&bg_color=000000"
-            width="auto"
-            height="198"
-            alt="berta matuliauskiene github"
-          />
-        </div>
+
       </AboutText>
     </AboutPage>
   );
