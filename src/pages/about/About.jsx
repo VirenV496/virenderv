@@ -101,15 +101,15 @@ const About = () => {
         <p>
           <ul>
             <li>
-              In <strong>2021 March</strong> I got my first front-end developer
-              job. Spent there 6 months working with JavaScript React Js & Node
-              Js.
+              In <strong>2021 April</strong> In April 2021, I secured a developer job and since then have honed my,
+              skills in JavaScript,Typescript React, React Native, Angular, 
+              as well as backend development with Python and Node.js.
             </li>
-            <li>
+            {/* <li>
               In <strong>2021 November</strong> I joined another company to get
               more experience in React Js React Native , TypeScript and
              & to explore more Tech
-            </li>
+            </li> */}
           </ul>
           <a
             href="https://www.linkedin.com/in/virender-vishwakarma-952381176/"
