@@ -1,18 +1,46 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../assets/scss/style.scss";
 import styled from "styled-components";
 const Home = () => {
+  useEffect(() => {
+    // Create a script element
+    const script = document.createElement("script");
+
+    // Set the source attribute to your script URL
+    script.src = "https://static-bundles.visme.co/forms/vismeforms-embed.js";
+
+    // Append the script to the document body
+    document.body.appendChild(script);
+
+    // Clean up function to remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []); // Empty dependency array ensur
+
   return (
     <HomePage>
-        <HomeLogo>
-       <LogoText>Welcome</LogoText>
-       <Description> Software Engineer</Description>
+    <Animation>
+     <div
+      class="visme_d"
+      data-title="Custom Form"
+      data-url="pvmwz67g-custom-form"
+      data-domain="forms"
+      data-full-page="false"
+      data-min-height="100px"
+      data-form-id="22234"
+    ></div>
+     </Animation>
+      <HomeLogo>
+        <LogoText>Welcome</LogoText>
+        <Description> Software Engineer</Description>
       </HomeLogo>
       <div className="welcome">
         <p>
-         My name is virender vishwakarma, I'm a front-end developer based in
-          India, pune maharashtra,I have developed many types of front-ends Shipping, manufacturing, from
-          well know applications to Ecommerce booking platforms.
+          My name is virender vishwakarma, I'm a Software Engineer based in
+          India, pune maharashtra,I have developed many types of front-ends
+          Shipping, manufacturing, from well know applications to Ecommerce
+          booking platforms.
         </p>
 
         <p>
@@ -25,34 +53,48 @@ const Home = () => {
 };
 
 const HomePage = styled.section`
-overflow-y: hidden;
-overflow-x: hidden;
-height: 90vh;
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; /* Center horizontally */
-margin-top: 5vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  margin-top: 0vh;
 `;
 
+const Animation = styled.div`
+/* Set position to relative to contain absolutely positioned element */
+position: relative;
+/* Set width and height to fill the entire viewport */
+width: 100vw;
+height: 45vh;
+/* Add animation */
+animation-name: backgroundAnimation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+`;
+
+
 const HomeLogo = styled.div`
-    z-index: 999;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: -10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -10px;
 `;
 
 const HomeText = styled.article`
-    font-size: 13px;
-    color: black;
-    text-align: justify;
-    width: 90%; /* Adjusted width for mobile devices */
-    @media (min-width: 768px) {
-        width: 55vw;
-        font-size: 14px;
-    }
+  font-size: 13px;
+  color: black;
+  text-align: justify;
+  width: 90%; /* Adjusted width for mobile devices */
+  @media (min-width: 768px) {
+    width: 55vw;
+    font-size: 14px;
+  }
 `;
 
 const Description = styled.div`
