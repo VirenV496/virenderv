@@ -2,35 +2,8 @@ import React, { useEffect } from "react";
 import "../../assets/scss/style.scss";
 import styled from "styled-components";
 const Home = () => {
-  useEffect(() => {
-    // Create a script element
-    const script = document.createElement("script");
-
-    // Set the source attribute to your script URL
-    script.src = "https://static-bundles.visme.co/forms/vismeforms-embed.js";
-
-    // Append the script to the document body
-    document.body.appendChild(script);
-
-    // Clean up function to remove the script when the component unmounts
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []); // Empty dependency array ensur
-
   return (
     <HomePage>
-    <Animation>
-     <div
-      class="visme_d"
-      data-title="Custom Form"
-      data-url="pvmwz67g-custom-form"
-      data-domain="forms"
-      data-full-page="false"
-      data-min-height="100px"
-      data-form-id="22234"
-    ></div>
-     </Animation>
       <HomeLogo>
         <LogoText>Welcome</LogoText>
         <Description> Software Engineer</Description>
