@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <HomePage>
       <HomeLogo>
-        <LogoText>Welcome</LogoText>
+        {/* <LogoText>Welcome</LogoText> */}
         <Description> Software Engineer</Description>
       </HomeLogo>
       <div className="welcome">
